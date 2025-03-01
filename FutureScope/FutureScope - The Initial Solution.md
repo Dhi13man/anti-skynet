@@ -77,6 +77,11 @@ The initial solution of a B2B SaaS Placement Automation platform, keeping in min
    - Discussion boards for case competitions
    - Discussion boards for events
    - Discussion boards for jobs
+10. Demo Onboarding
+    - Completely frontend-driven
+    - Test out every flow
+11. History analysis
+12. Career Counselling-like conversation bot to extract info
 
 ### Non-Functional Requirements
 
