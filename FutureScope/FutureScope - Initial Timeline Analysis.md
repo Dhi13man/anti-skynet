@@ -19,6 +19,44 @@ project_name: FutureScope
 
 ## Detailed Phase-by-Phase Breakdown
 
+### Phase 1: MVP Scope (5 months)
+
+| Deliverables                                          | Description                                                       |
+| ----------------------------------------------------- | ----------------------------------------------------------------- |
+| Auth & RBAC                                           | Secure login, role-based permissions (Admin, Student)             |
+| Core Data Models                                      | Student, Company, CV, Domain Selection, etc.                      |
+| Basic Infrastructure                                  | Database setup, CI/CD pipeline, AWS/GCP configuration             |
+| State Manager & Notifications                         | Coordinates feature flows, sends basic notifications              |
+| Initial Testing & QA                                  | Basic unit tests, minimal integration tests                       |
+| Student Portal > Student Portal + Profiler Agent      | AI-driven student profiling with third-party voice APIs           |
+| Student Portal > CV Manager (Minimal AI)              | Template-based CV builder, basic verification                     |
+| Student Portal > Career Guide AI Agent + Goal Setting | Helps students identify primary/secondary domains                 |
+| Admin Portal > Company CRM                            | Add and modify companies coming, job listings, student shortlists |
+| Admin Portal > CV Verification                        | Verify individual CV points based on email proofs, freeze them    |
+
+### Phase 2: Advanced AI & Feature Expansion (7 months)
+
+| Deliverables                                 | Description                                                                                        |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Student Portal > Interview Expert AI         | Advanced speech analysis, real-time feedback, domain-specific question sets                        |
+| Student Portal > Real-time Tracking          | Day 0–2/3 dashboards, live interview status, push notifications                                    |
+| Student Portal > PPT Guide                   | AI-driven suggestions for Pre-Placement Talks, reflection & feedback loop                          |
+| Student Portal > Group Preparation           | Collaborative interview practice, AI-driven role rotation, alumni & peer connections               |
+| Student Portal > Enhanced Career Guide       | Domain-specific recommendations, advanced goal refinement, dynamic roadmap updates                 |
+| Student Portal > AI Tutor & Last-Minute Tips | Provides confidence checks, motivation, caution tips, and short-answer guidance before interviews. |
+| Admin Portal > Analytics & Reporting         | Student progress metrics, predictive insights, admin dashboards                                    |
+
+### Phase 3: Scale & Enterprise Features (4–5 months)
+
+| Deliverables                           | Description                                                                                |
+| -------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Microservices Architecture             | Service-oriented modules for AI agents, user management, real-time events                  |
+| Risk Management System                 | Risk Calculator AI, predictive analytics, early warnings                                   |
+| Full Automation & Scaling              | Kubernetes-based deployment or serverless approach, robust caching, load balancing         |
+| Final QA & Optimization                | System-wide performance tuning, reliability checks, handoff & maintenance frameworks       |
+| Admin Portal > Company Interaction CRM | Outreach Negotiator AI Agent, automated email workflows, CRM for each outreach interaction |
+| Admin Portal > Enterprise Integrations | Multi-tenant support, security hardening, white-labeling, advanced exporting               |
+
 ### Phase 1: MVP Development
 
 | **Team Type**  | **Timeline** | **Key Activities**                                                 | **Risks**                           |
@@ -39,67 +77,71 @@ project_name: FutureScope
   - Auth & RBAC implementation
   - Core data models (Student, Company)
   - Basic infrastructure setup
+  - Admin Portal: Company CRM
 - **Month 3-4:**
-  - Profile Creator and Resume Builder
   - State Manager implementation
   - Basic notification infrastructure
+  - Student Portal: Profile Creator and Resume Builder
+  - Student Portal: Career Guide AI (basic goal setting)
 - **Month 5-6:**
-  - Student Profiler with third-party voice APIs
-  - CV Manager (template-based, minimal AI)
   - Initial testing & QA
+  - Student Portal: Student Profiler with third-party voice APIs
+  - Student Portal: CV Manager (template-based, minimal AI)
+  - Admin Portal: CV Verification with email proofs
 
 #### Balanced Team Approach: Phase 1
 
-- **Timeline: 4 months**
-- **Month 1:**
-  - Auth system, RBAC configuration
-  - Data models and database schema
-  - Infrastructure setup with CI/CD
-- **Month 2:**
-  - Profile Creator, Resume Builder (parallel development)
-  - State Manager with webhook integration
-  - Notification service framework
+- **Month 1-2:**
+  - Auth & RBAC implementation
+  - Core data models (Student, Company)
+  - Basic infrastructure setup
+  - Admin Portal: Company CRM
 - **Month 3-4:**
-  - Student Profiler with custom voice-to-text pipeline
-  - CV Manager with LLM-assisted gap filling
-  - Integration testing
-  - Refinement based on initial feedback
+  - State Manager implementation
+  - Basic notification infrastructure
+  - Student Portal: Profile Creator and Resume Builder
+  - Student Portal: Career Guide AI (basic goal setting)
+- **Month 5-6:**
+  - Initial testing & QA
+  - Student Portal: Student Profiler with third-party voice APIs
+  - Student Portal: CV Manager (template-based, minimal AI)
+  - Admin Portal: CV Verification with email proofs
 
 #### Aggressive Team Approach: Phase 1
 
-- **Timeline: 3-4 months**
-- **Month 1:**
-  - Rapid architecture finalization
-  - Auth, RBAC, and infrastructure deployment
-  - Initial data model implementation
-  - Concurrent development of core systems
-- **Month 2:**
-  - Initial ML pipeline integration
-  - API gateway configuration
-  - Student Profiler with custom ML model integration
-- **Month 3:**
-  - CV Manager with advanced template matching
-  - Real-time notification system
-  - Full system integration
-- **Month 4:** (If needed)
-  - Optimization and performance tuning
-  - Initial pilot launch
+- **Month 1-2:**
+  - Auth & RBAC implementation
+  - Core data models (Student, Company)
+  - Basic infrastructure setup
+  - Admin Portal: Company CRM
+- **Month 3-4:**
+  - State Manager implementation
+  - Basic notification infrastructure
+  - Student Portal: Profile Creator and Resume Builder
+  - Student Portal: Career Guide AI (basic goal setting)
+- **Month 5-6:**
+  - Initial testing & QA
+  - Student Portal: Student Profiler with third-party voice APIs
+  - Student Portal: CV Manager (template-based, minimal AI)
+  - Admin Portal: CV Verification with email proofs
 
 #### Hybrid Team Approach: Phase 1
 
-- **Timeline: 5 months**
 - **Month 1-2:**
-  - Core team: Auth system and data models
-  - Contractors: UI/UX design and implementation
-  - DevOps: CI/CD pipeline setup
+  - Auth & RBAC implementation
+  - Core data models (Student, Company)
+  - Basic infrastructure setup
+  - Admin Portal: Company CRM
 - **Month 3-4:**
-  - Core team: Profile Creator and State Manager
-  - ML engineer: Student Profiler framework
-  - Contractors: Resume Builder and template designs
-- **Month 5:**
-  - System integration
-  - QA (contractor-assisted)
-  - Pilot preparation
+  - State Manager implementation
+  - Basic notification infrastructure
+  - Student Portal: Profile Creator and Resume Builder
+  - Student Portal: Career Guide AI (basic goal setting)
+- **Month 5-6:**
+  - Initial testing & QA
+  - Student Portal: Student Profiler with third-party voice APIs
+  - Student Portal: CV Manager (template-based, minimal AI)
+  - Admin Portal: CV Verification with email proofs
 
 ### Phase 2: Advanced AI Development
 
@@ -118,62 +160,25 @@ project_name: FutureScope
 
 - **Timeline: 8 months post-MVP**
 - **Month 1:**
-  - Fine tuning LLM model setup
-  - Career Guide initial rule-based framework
+  - Fine-tuning LLM model setup
+  - Initial Career Guide rule-based framework
 - **Month 2-4:**
   - Interview Expert development (text-only feedback)
-  - Day 0-3 tracking basic implementation
+  - Day 0-3 tracking (basic real-time dashboards)
+  - PPT Guide (AI-driven suggestions for Pre-Placement Talks)
+  - Group Preparation (collaborative practice, basic AI rotation)
+  - AI Tutor & Last-Minute Tips (text-based checks and tips)
 - **Month 5-8:**
   - Analytics dashboard (basic metrics)
-  - Career Guide ML model integration
+  - Enhanced Career Guide ML integration
   - Integration testing and optimization
+  - Final review of all advanced AI features
 
 #### Balanced Team Approach: Phase 2
 
-- **Timeline: 6-7 months post-MVP**
-- **Month 1-2:**
-  - Advanced AI feature specification
-  - Training data preparation
-  - Career Guide with LangChain-driven workflows
-- **Month 3-5:**
-  - Interview Expert with basic speech analysis
-  - Real-time Day 0-3 tracking via Redis streams
-  - Analytics dashboard with predictive insights
-- **Month 6-7:**
-  - Interview Expert enhancement to include video
-  - System integration and optimization
-  - A/B testing of AI agent effectiveness
-
 #### Aggressive Team Approach: Phase 2
 
-- **Timeline: 4-5 months post-MVP**
-- **Month 1:**
-  - Rapid ML model training and tuning
-  - Parallel agent development kickoff
-- **Month 2-3:**
-  - Career Guide with comprehensive domain knowledge
-  - Interview Expert with real-time multimodal feedback
-  - Complete Day 0-3 tracking with webhooks
-- **Month 4-5:**
-  - Analytics dashboard with custom visualizations
-  - Advanced prediction models integration
-  - Full system integration and performance tuning
-
 #### Hybrid Team Approach: Phase 2
-
-- **Timeline: 7 months post-MVP**
-- **Month 1-2:**
-  - Core ML engineer: Framework design
-  - ML contractors: Domain-specific agent development
-  - Full-stack team: Tracking system foundation
-- **Month 3-5:**
-  - Core team: Analytics integration
-  - ML contractors: Career Guide and Interview Expert refinement
-  - QA contractors: Testing automation
-- **Month 6-7:**
-  - System integration
-  - Performance optimization
-  - Feature rollout planning
 
 ### Phase 3: Scaling & Advanced Features
 
@@ -196,56 +201,22 @@ project_name: FutureScope
 - **Month 1-3:**
   - Negotiation Bot prototype (limited scope)
   - Basic Risk Calculator (rule-based)
+  - Negotiation Bot prototype, basic Risk Calculator
 - **Month 4-6:**
   - Vector DB based optimisations for all AIs
   - Redis caching implementation
+  - Introduces caching, partial microservices, performance
 - **Month 7-8:**
   - Incremental refactoring towards microservices
   - Performance optimization
   - Simplified scaling capabilities
+  - Completes final QA, Admin Portal Interaction CRM, enterprise integrations
 
 #### Balanced Team Approach: Phase 3
 
-- **Timeline: 4-5 months post-Phase 2**
-- **Month 1:**
-  - Microservices architecture planning
-  - Caching strategy implementation
-- **Month 2-3:**
-  - Distributed system transition
-  - Negotiation Bot with supervised learning
-- **Month 4-5:**
-  - Risk Calculator with historical data integration
-  - Performance monitoring and auto-scaling
-  - Enterprise feature rollout
-
 #### Aggressive Team Approach: Phase 3
 
-- **Timeline: 3-4 months post-Phase 2**
-- **Month 1:**
-  - Full microservices transition
-  - Advanced caching implementation
-- **Month 2:**
-  - Negotiation Bot with advanced NLP capabilities
-  - Comprehensive Risk Calculator
-- **Month 3-4:**
-  - Kubernetes orchestration
-  - System-wide performance optimization
-  - Enterprise-grade security enhancements
-
 #### Hybrid Team Approach: Phase 3
-
-- **Timeline: 4-5 months post-Phase 2**
-- **Month 1-2:**
-  - DevOps contractors: Infrastructure enhancement
-  - Core team: Negotiation Bot framework
-  - ML contractors: Risk Calculator model development
-- **Month 3-4:**
-  - System integration
-  - Performance optimization
-  - Enterprise feature deployment
-- **Month 5:**
-  - Knowledge transfer from contractors
-  - Final system tuning
 
 ## AI Analysis & Recommendation
 
