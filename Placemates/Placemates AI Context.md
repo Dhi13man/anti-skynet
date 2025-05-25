@@ -442,7 +442,7 @@ Your architecture is **technically feasible but operationally demanding**. Prior
 By addressing gaps in auth, analytics, and APIs, you’ll create a robust foundation to outpace Skynet.
 ```
 
-### GPT Says
+### ChatGPT Says
 
 ```md
 ### 1. Overall Structure

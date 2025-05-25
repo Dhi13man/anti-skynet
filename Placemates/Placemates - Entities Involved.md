@@ -4,7 +4,7 @@ tags:
   - brainstorming
 project_name: FutureScope
 ---
-# FutureScope - Entities Involved
+# Placemates - Entities Involved
 
 ## Business-Level Entities
 

@@ -6,7 +6,7 @@ tags:
 project_name: FutureScope
 ---
 
-# FutureScope – Initial Cost Analysis (Bootstrapped Approach)
+# Placemates – Initial Cost Analysis (Bootstrapped Approach)
 
 ## Executive Summary
 
@@ -64,16 +64,16 @@ We're taking a highly cost-conscious bootstrapped approach for FutureScope, focu
 
 ## Infrastructure & External Services (Annual)
 
-| **Service**              | **Annual Cost** | **Strategy** |
-|-------------------------|----------------|--------------|
-| **Cloud (AWS/DO)**      | ₹1.2L         | t3.micro instances, spot pricing |
-| **Authentication**      | ₹0            | Self-hosted Keycloak |
-| **Email**              | ₹12K          | AWS SES minimal tier |
-| **Voice Processing**    | ₹24K          | Self-hosted Whisper |
-| **LLMs**               | ₹36K          | Self-hosted open source models |
-| **Monitoring**         | ₹0            | Prometheus + Grafana |
-| **Project Management** | ₹0            | GitHub Free + Trello |
-| **Total**             | **₹1.92L**    |              |
+| **Service**            | **Annual Cost** | **Strategy**                          |
+| ---------------------- | --------------- | ------------------------------------- |
+| **Cloud (AWS/DO)**     | ₹1.2L           | 10x t3.medium instances, spot pricing |
+| **Authentication**     | ₹0              | Self-hosted Keycloak                  |
+| **Email**              | ₹12K            | AWS SES minimal tier                  |
+| **Voice Processing**   | ₹24K            | Self-hosted Whisper                   |
+| **LLMs**               | ₹36K            | Self-hosted open source models        |
+| **Monitoring**         | ₹0              | Prometheus + Grafana                  |
+| **Project Management** | ₹0              | GitHub Free + Trello                  |
+| **Total**              | **₹1.92L**      |                                       |
 
 ## AI Agent Costs (Annual)
 
@@ -86,12 +86,12 @@ We're taking a highly cost-conscious bootstrapped approach for FutureScope, focu
 
 ## Total Annual Cost Projections
 
-| **Category**     | **Lean** | **Balanced** | **Aggressive** | **Hybrid** |
-|-----------------|----------|--------------|----------------|------------|
-| **Team**        | ₹9.6L    | ₹12.6L      | ₹19.2L        | ₹11.52L   |
-| **Infrastructure** | ₹1.92L  | ₹1.92L      | ₹1.92L        | ₹1.92L    |
-| **AI Agents**    | ₹0.6L   | ₹0.6L       | ₹0.6L         | ₹0.6L     |
-| **Total**       | **₹12.12L** | **₹15.12L** | **₹21.72L** | **₹14.04L** |
+| **Category**       | **Lean**    | **Balanced** | **Aggressive** | **Hybrid**  |
+| ------------------ | ----------- | ------------ | -------------- | ----------- |
+| **Team**           | ₹9.6L       | ₹12.6L       | ₹19.2L         | ₹11.52L     |
+| **Infrastructure** | ₹1.92L      | ₹1.92L       | ₹1.92L         | ₹1.92L      |
+| **AI Agents**      | ₹0.6L       | ₹0.6L        | ₹0.6L          | ₹0.6L       |
+| **Total**          | **₹12.12L** | **₹15.12L**  | **₹21.72L**    | **₹14.04L** |
 
 ## Cost-Saving Strategies
 

@@ -90,7 +90,7 @@ The initial solution of a B2B SaaS Placement Automation platform, keeping in min
    2. Faster response times.
 2. Migration from competitors should be seamless and easy.
 
-## [[FutureScope - Entities Involved]]
+## [[Placemates - Entities Involved]]
 
 ## Codebases Involved
 
